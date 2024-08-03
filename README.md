@@ -25,12 +25,27 @@ A simple command-line tool to encrypt and decrypt text using the Caesar Cipher a
 
 Clone this repository:
 ```
-git clone https://github.com/your-username/caesar-cipher.git
-
+git clone https://github.com/gameloverr2000/PRODIGY_CS_01.git
 ```
 Navigate to the Directory:
 ```
-cd caesar-cipher
+cd PRODIGY_CS_01
 ```
 
+# Examples
 
+* Encryption:
+```
+$ python Caesar Cipher.py E
+Enter the text: Hello, World!
+Enter the shift value (1-25): 3
+Encrypted text: Khoor, Zruog!
+```
+
+* Decryption:
+```
+$ python Caesar Cipher.py D
+Enter the text: Khoor, Zruog!
+Enter the shift value (1-25): 3
+Decrypted text: Hello, World!
+```
